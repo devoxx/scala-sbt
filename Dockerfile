@@ -5,11 +5,11 @@
 #
 
 # Pull base image
-FROM openjdk:8u162
+FROM openjdk:10-jdk
 
 # Env variables
-ENV SCALA_VERSION 2.12.5
-ENV SBT_VERSION 1.1.2
+ENV SCALA_VERSION 2.11.6
+ENV SBT_VERSION 0.13.8
 
 # Scala expects this file
 RUN touch /usr/lib/jvm/java-8-openjdk-amd64/release
